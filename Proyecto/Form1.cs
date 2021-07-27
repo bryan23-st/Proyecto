@@ -13,7 +13,7 @@ namespace Proyecto
 {
     public partial class Form1 : Form
     {
-        SqlConnection con = new SqlConnection("Data Source = LAPTOP - H6JOJ1AH\\SQLEXPRESS;Initial Catalog = Supermercado; Integrated Security = True");
+        SqlConnection con = new SqlConnection("Data Source=LAPTOP-H6JOJ1AH\\SQLEXPRESS;Initial Catalog=Supermercado;Integrated Security=True");
         int contador = 0;
         public Form1()
         {
@@ -53,13 +53,13 @@ namespace Proyecto
                         if (dt1.Rows[0][1].ToString() == "1")
                         {
                             MessageBox.Show("Sea bienvenido al sistema Admin " + "-" + dt1.Rows[0][0].ToString() + "-" + dt1.Rows[0][2].ToString());
-                            new principal().ShowDialog();
+                            new Adminis().ShowDialog();
                             //new Admin(dt1.Rows[0][0].ToString(), dt1.Rows[0][2].ToString()).ShowDialog(); 
                         }
                         else if (dt1.Rows[0][1].ToString() == "2")
                         {
                             MessageBox.Show("Bienvenido al sistema Usuario " + "-" + dt1.Rows[0][0].ToString() + "-" + dt1.Rows[0][2].ToString());
-                            new principal().ShowDialog();
+                            new Usuario().ShowDialog();
                             //new Usuario(dt1.Rows[0][0].ToString(), dt1.Rows[0][2].ToString()).ShowDialog();
                         }
                         this.Close();
