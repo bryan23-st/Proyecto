@@ -46,21 +46,17 @@ namespace Proyecto
 
                     if (dt1.Rows.Count == 1)
                     {
-                        /*Maria-1728349385
-                          mandar el nombre de la persona q esta ingresando y la cedula al otro formulario
-                          */
+                        
                         this.Hide();
                         if (dt1.Rows[0][1].ToString() == "1")
                         {
                             MessageBox.Show("Sea bienvenido al sistema Admin " + "-" + dt1.Rows[0][0].ToString() + "-" + dt1.Rows[0][2].ToString());
                             new Adminis().ShowDialog();
-                            //new Admin(dt1.Rows[0][0].ToString(), dt1.Rows[0][2].ToString()).ShowDialog(); 
                         }
                         else if (dt1.Rows[0][1].ToString() == "2")
                         {
                             MessageBox.Show("Bienvenido al sistema Usuario " + "-" + dt1.Rows[0][0].ToString() + "-" + dt1.Rows[0][2].ToString());
                             new Usuario().ShowDialog();
-                            //new Usuario(dt1.Rows[0][0].ToString(), dt1.Rows[0][2].ToString()).ShowDialog();
                         }
                         this.Close();
                     }
@@ -90,11 +86,6 @@ namespace Proyecto
                         sdao.Fill(dto);
                         con.Close();
                         MessageBox.Show("Ingreso valores erroneos en varios intentos" + "," + nombre + "," + " a sido bloqueado");
-
-                        //cmdo.Parameters.AddWithValue("@nom", nombre);
-                        //cmdo.Parameters.AddWithValue("@pas", pass);
-                        //cmdo.ExecuteNonQuery();
-                        //MessageBox.Show("El usuario a sido bloqueado");
                         Application.Exit();
                     }
                 }
