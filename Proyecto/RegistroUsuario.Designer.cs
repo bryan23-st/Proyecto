@@ -30,6 +30,8 @@ namespace Proyecto
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_pass = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.cmb_rol = new System.Windows.Forms.ComboBox();
             this.txt_cedula = new System.Windows.Forms.TextBox();
             this.txt_correo = new System.Windows.Forms.TextBox();
@@ -45,8 +47,6 @@ namespace Proyecto
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txt_pass = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,6 +74,25 @@ namespace Proyecto
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(554, 541);
             this.panel1.TabIndex = 0;
+            // 
+            // txt_pass
+            // 
+            this.txt_pass.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pass.Location = new System.Drawing.Point(333, 253);
+            this.txt_pass.Name = "txt_pass";
+            this.txt_pass.Size = new System.Drawing.Size(121, 26);
+            this.txt_pass.TabIndex = 17;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.DimGray;
+            this.label8.Location = new System.Drawing.Point(35, 253);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(120, 19);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "CONTRASEÑA";
             // 
             // cmb_rol
             // 
@@ -233,31 +252,13 @@ namespace Proyecto
             this.label1.TabIndex = 0;
             this.label1.Text = "REGISTRO USUARIOS";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.DimGray;
-            this.label8.Location = new System.Drawing.Point(35, 253);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 19);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "CONTRASEÑA";
-            // 
-            // txt_pass
-            // 
-            this.txt_pass.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_pass.Location = new System.Drawing.Point(333, 253);
-            this.txt_pass.Name = "txt_pass";
-            this.txt_pass.Size = new System.Drawing.Size(121, 26);
-            this.txt_pass.TabIndex = 17;
-            // 
             // RegistroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(554, 542);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegistroUsuario";
             this.Text = "RegistroUsuario";
             this.Load += new System.EventHandler(this.RegistroUsuario_Load);
