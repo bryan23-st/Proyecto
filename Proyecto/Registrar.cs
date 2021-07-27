@@ -16,5 +16,10 @@ namespace Proyecto
         {
             InitializeComponent();
         }
+
+        private void Registrar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
