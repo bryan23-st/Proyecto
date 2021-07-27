@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto
 {
-    public partial class Registro : Form
+    public partial class Registrar : Form
     {
-        public Registro()
+        public Registrar()
         {
             InitializeComponent();
         }
