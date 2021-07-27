@@ -56,7 +56,7 @@ namespace Proyecto
                         else if (dt1.Rows[0][1].ToString() == "2")
                         {
                             MessageBox.Show("Bienvenido al sistema Usuario " + "-" + dt1.Rows[0][0].ToString() + "-" + dt1.Rows[0][2].ToString());
-                            new Usuario().ShowDialog();
+                            new Invitado().ShowDialog();
                         }
                         this.Close();
                     }
@@ -104,7 +104,7 @@ namespace Proyecto
         private void btn_registarse_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //new Registro().ShowDialog();
+            new RegistroUsuario().ShowDialog();
             this.Close();
         }
 
