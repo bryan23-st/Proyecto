@@ -75,15 +75,15 @@ namespace Proyecto
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(471, 515);
+            this.panel1.Size = new System.Drawing.Size(492, 523);
             this.panel1.TabIndex = 0;
             // 
             // btn_regresar
             // 
-            this.btn_regresar.BackColor = System.Drawing.Color.White;
+            this.btn_regresar.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btn_regresar.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_regresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_regresar.Location = new System.Drawing.Point(300, 456);
+            this.btn_regresar.Location = new System.Drawing.Point(282, 466);
             this.btn_regresar.Name = "btn_regresar";
             this.btn_regresar.Size = new System.Drawing.Size(103, 23);
             this.btn_regresar.TabIndex = 14;
@@ -92,10 +92,10 @@ namespace Proyecto
             // 
             // btn_registrar
             // 
-            this.btn_registrar.BackColor = System.Drawing.Color.White;
+            this.btn_registrar.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btn_registrar.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_registrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_registrar.Location = new System.Drawing.Point(26, 456);
+            this.btn_registrar.Location = new System.Drawing.Point(88, 466);
             this.btn_registrar.Name = "btn_registrar";
             this.btn_registrar.Size = new System.Drawing.Size(102, 23);
             this.btn_registrar.TabIndex = 13;
@@ -108,7 +108,7 @@ namespace Proyecto
             this.cmb_rol.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_rol.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmb_rol.FormattingEnabled = true;
-            this.cmb_rol.Location = new System.Drawing.Point(282, 359);
+            this.cmb_rol.Location = new System.Drawing.Point(338, 359);
             this.cmb_rol.Name = "cmb_rol";
             this.cmb_rol.Size = new System.Drawing.Size(121, 25);
             this.cmb_rol.TabIndex = 12;
@@ -118,7 +118,7 @@ namespace Proyecto
             this.txt_direc.BackColor = System.Drawing.Color.White;
             this.txt_direc.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_direc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_direc.Location = new System.Drawing.Point(282, 241);
+            this.txt_direc.Location = new System.Drawing.Point(338, 241);
             this.txt_direc.Name = "txt_direc";
             this.txt_direc.Size = new System.Drawing.Size(121, 25);
             this.txt_direc.TabIndex = 11;
@@ -128,7 +128,7 @@ namespace Proyecto
             this.txt_contraseña.BackColor = System.Drawing.Color.White;
             this.txt_contraseña.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contraseña.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_contraseña.Location = new System.Drawing.Point(282, 190);
+            this.txt_contraseña.Location = new System.Drawing.Point(338, 190);
             this.txt_contraseña.Name = "txt_contraseña";
             this.txt_contraseña.Size = new System.Drawing.Size(121, 25);
             this.txt_contraseña.TabIndex = 10;
@@ -138,7 +138,7 @@ namespace Proyecto
             this.txt_nick.BackColor = System.Drawing.Color.White;
             this.txt_nick.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nick.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_nick.Location = new System.Drawing.Point(282, 146);
+            this.txt_nick.Location = new System.Drawing.Point(338, 146);
             this.txt_nick.Name = "txt_nick";
             this.txt_nick.Size = new System.Drawing.Size(121, 25);
             this.txt_nick.TabIndex = 9;
@@ -148,7 +148,7 @@ namespace Proyecto
             this.txt_cedula.BackColor = System.Drawing.Color.White;
             this.txt_cedula.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_cedula.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_cedula.Location = new System.Drawing.Point(282, 98);
+            this.txt_cedula.Location = new System.Drawing.Point(338, 98);
             this.txt_cedula.Name = "txt_cedula";
             this.txt_cedula.Size = new System.Drawing.Size(121, 25);
             this.txt_cedula.TabIndex = 8;
@@ -158,7 +158,7 @@ namespace Proyecto
             this.txt_nombre.BackColor = System.Drawing.Color.White;
             this.txt_nombre.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_nombre.Location = new System.Drawing.Point(282, 51);
+            this.txt_nombre.Location = new System.Drawing.Point(338, 51);
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(121, 25);
             this.txt_nombre.TabIndex = 7;
@@ -252,7 +252,7 @@ namespace Proyecto
             this.txt_correo.BackColor = System.Drawing.Color.White;
             this.txt_correo.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_correo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_correo.Location = new System.Drawing.Point(282, 304);
+            this.txt_correo.Location = new System.Drawing.Point(338, 304);
             this.txt_correo.Name = "txt_correo";
             this.txt_correo.Size = new System.Drawing.Size(121, 25);
             this.txt_correo.TabIndex = 15;
@@ -273,7 +273,7 @@ namespace Proyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(473, 515);
+            this.ClientSize = new System.Drawing.Size(494, 519);
             this.Controls.Add(this.panel1);
             this.Name = "Registro";
             this.Text = "Registro";
