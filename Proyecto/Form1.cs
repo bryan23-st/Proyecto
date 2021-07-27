@@ -113,7 +113,7 @@ namespace Proyecto
         private void btn_registarse_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Registro().ShowDialog();
+            //new Registro().ShowDialog();
             this.Close();
         }
 
