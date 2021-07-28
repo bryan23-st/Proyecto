@@ -104,7 +104,7 @@ namespace Proyecto
         private void btn_registarse_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //new Registro().ShowDialog();
+            new RegistroUsuario().ShowDialog();
             this.Close();
         }
 

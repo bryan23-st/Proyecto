@@ -16,5 +16,12 @@ namespace Proyecto
         {
             InitializeComponent();
         }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            new RegistroUsuario().ShowDialog();
+            this.Close();
+        }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.lbl_intentos = new System.Windows.Forms.Label();
             this.btn_registarse = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
@@ -38,7 +39,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +59,15 @@
             this.panel1.Size = new System.Drawing.Size(322, 296);
             this.panel1.TabIndex = 0;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(4, 239);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Intentos:";
+            // 
             // lbl_intentos
             // 
             this.lbl_intentos.AutoSize = true;
@@ -70,7 +79,7 @@
             // 
             // btn_registarse
             // 
-            this.btn_registarse.Location = new System.Drawing.Point(134, 239);
+            this.btn_registarse.Location = new System.Drawing.Point(205, 189);
             this.btn_registarse.Name = "btn_registarse";
             this.btn_registarse.Size = new System.Drawing.Size(75, 23);
             this.btn_registarse.TabIndex = 7;
@@ -80,7 +89,7 @@
             // 
             // btn_salir
             // 
-            this.btn_salir.Location = new System.Drawing.Point(205, 188);
+            this.btn_salir.Location = new System.Drawing.Point(205, 234);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(75, 23);
             this.btn_salir.TabIndex = 6;
@@ -138,15 +147,6 @@
             this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "BIENVENIDOS";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 239);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 13);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Intentos:";
             // 
             // Form1
             // 

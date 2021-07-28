@@ -16,5 +16,32 @@ namespace Proyecto
         {
             InitializeComponent();
         }
+
+        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
+        {
+
+        }
+
+        private Form activeForm = null;
+        private void openPanelCentral(Form panel)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = panel;
+            panel.TopLevel = false;
+            panel.FormBorderStyle = FormBorderStyle.None;
+            panel.Dock = DockStyle.Fill;
+            panelcentral.Controls.Add(panel);
+            panelcentral.Tag = panel;
+            panel.BringToFront();
+            panel.Show();
+
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openPanelCentral(new RegistroUsuario());
+        }
     }
 }
