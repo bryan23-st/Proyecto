@@ -27,7 +27,7 @@ namespace Proyecto
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new RegistroUsuario().ShowDialog();
+            new Form1().ShowDialog();
             this.Close();
         }
 
@@ -40,7 +40,7 @@ namespace Proyecto
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
         }
     }
 }

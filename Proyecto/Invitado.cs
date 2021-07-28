@@ -43,5 +43,10 @@ namespace Proyecto
         {
             openPanelCentral(new RegistroUsuario());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            openPanelCentral(new Negocio());
+        }
     }
 }

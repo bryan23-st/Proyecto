@@ -23,5 +23,7 @@ namespace Proyecto
             new RegistroUsuario().ShowDialog();
             this.Close();
         }
+
+
     }
 }

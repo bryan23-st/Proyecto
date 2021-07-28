@@ -61,7 +61,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(167, 514);
+            this.panel1.Size = new System.Drawing.Size(166, 514);
             this.panel1.TabIndex = 0;
             // 
             // panel7
@@ -108,7 +108,7 @@
             this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button4.Location = new System.Drawing.Point(61, 283);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 52);
+            this.button4.Size = new System.Drawing.Size(102, 52);
             this.button4.TabIndex = 10;
             this.button4.Text = "Compras";
             this.button4.UseVisualStyleBackColor = false;
@@ -120,7 +120,7 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button3.Location = new System.Drawing.Point(61, 225);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 52);
+            this.button3.Size = new System.Drawing.Size(102, 52);
             this.button3.TabIndex = 8;
             this.button3.Text = "Proveedores";
             this.button3.UseVisualStyleBackColor = false;
@@ -132,7 +132,7 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button2.Location = new System.Drawing.Point(61, 167);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 52);
+            this.button2.Size = new System.Drawing.Size(102, 52);
             this.button2.TabIndex = 6;
             this.button2.Text = "Productos";
             this.button2.UseVisualStyleBackColor = false;
@@ -144,7 +144,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(61, 115);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 46);
+            this.button1.Size = new System.Drawing.Size(102, 46);
             this.button1.TabIndex = 4;
             this.button1.Text = "Usuarios";
             this.button1.UseVisualStyleBackColor = false;
@@ -156,16 +156,16 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(167, 109);
+            this.panel3.Size = new System.Drawing.Size(166, 109);
             this.panel3.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(167, 0);
+            this.panel2.Location = new System.Drawing.Point(166, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(695, 514);
+            this.panel2.Size = new System.Drawing.Size(696, 514);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox1

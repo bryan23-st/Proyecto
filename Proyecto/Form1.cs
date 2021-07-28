@@ -50,12 +50,12 @@ namespace Proyecto
                         this.Hide();
                         if (dt1.Rows[0][1].ToString() == "1")
                         {
-                            MessageBox.Show("Sea bienvenido al sistema Admin " + "-" + dt1.Rows[0][0].ToString() + "-" + dt1.Rows[0][2].ToString());
+                            MessageBox.Show("Bienvenido al sistema Administrador" + " " + dt1.Rows[0][0].ToString());
                             new Adminis().ShowDialog();
                         }
                         else if (dt1.Rows[0][1].ToString() == "2")
                         {
-                            MessageBox.Show("Bienvenido al sistema Usuario " + "-" + dt1.Rows[0][0].ToString() + "-" + dt1.Rows[0][2].ToString());
+                            MessageBox.Show("Bienvenido al sistema Usuario" + " " + dt1.Rows[0][0].ToString());
                             new Invitado().ShowDialog();
                         }
                         this.Close();
