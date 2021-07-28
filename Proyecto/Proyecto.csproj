@@ -88,6 +88,9 @@
     <EmbeddedResource Include="Invitado.resx">
       <DependentUpon>Invitado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="principal.resx">
+      <DependentUpon>principal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
