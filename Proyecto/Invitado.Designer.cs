@@ -46,7 +46,7 @@
             // 
             // panellateral
             // 
-            this.panellateral.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.panellateral.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panellateral.Controls.Add(this.button3);
             this.panellateral.Controls.Add(this.label3);
             this.panellateral.Controls.Add(this.button2);
@@ -57,14 +57,14 @@
             this.panellateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.panellateral.Location = new System.Drawing.Point(0, 0);
             this.panellateral.Name = "panellateral";
-            this.panellateral.Size = new System.Drawing.Size(124, 505);
+            this.panellateral.Size = new System.Drawing.Size(144, 505);
             this.panellateral.TabIndex = 0;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(43, 161);
+            this.button3.Location = new System.Drawing.Point(44, 249);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 45);
+            this.button3.Size = new System.Drawing.Size(94, 55);
             this.button3.TabIndex = 6;
             this.button3.Text = "Valor a pagar";
             this.button3.UseVisualStyleBackColor = true;
@@ -72,7 +72,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 166);
+            this.label3.Location = new System.Drawing.Point(5, 270);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 5;
@@ -80,9 +80,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(43, 108);
+            this.button2.Location = new System.Drawing.Point(44, 185);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 45);
+            this.button2.Size = new System.Drawing.Size(94, 58);
             this.button2.TabIndex = 4;
             this.button2.Text = "Compra";
             this.button2.UseVisualStyleBackColor = true;
@@ -90,7 +90,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 113);
+            this.label2.Location = new System.Drawing.Point(5, 201);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 3;
@@ -98,9 +98,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(43, 57);
+            this.button1.Location = new System.Drawing.Point(44, 112);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 45);
+            this.button1.Size = new System.Drawing.Size(94, 56);
             this.button1.TabIndex = 2;
             this.button1.Text = "Registro";
             this.button1.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 62);
+            this.label1.Location = new System.Drawing.Point(5, 117);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
@@ -122,28 +122,28 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(124, 55);
+            this.panel1.Size = new System.Drawing.Size(144, 106);
             this.panel1.TabIndex = 0;
             // 
             // panelcentral
             // 
-            this.panelcentral.BackColor = System.Drawing.Color.LightBlue;
+            this.panelcentral.BackColor = System.Drawing.Color.OldLace;
             this.panelcentral.Controls.Add(this.pictureBox1);
             this.panelcentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelcentral.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panelcentral.Location = new System.Drawing.Point(124, 0);
+            this.panelcentral.Location = new System.Drawing.Point(144, 0);
             this.panelcentral.Name = "panelcentral";
-            this.panelcentral.Size = new System.Drawing.Size(765, 505);
+            this.panelcentral.Size = new System.Drawing.Size(745, 505);
             this.panelcentral.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(169, 126);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(405, 209);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(736, 499);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
