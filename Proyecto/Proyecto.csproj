@@ -71,6 +71,12 @@
       <DependentUpon>MantUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="menu.cs" />
+    <Compile Include="Negocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio.Designer.cs">
+      <DependentUpon>Negocio.cs</DependentUpon>
+    </Compile>
     <Compile Include="principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantUsuarios.resx">
       <DependentUpon>MantUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio.resx">
+      <DependentUpon>Negocio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="principal.resx">
       <DependentUpon>principal.cs</DependentUpon>
